@@ -1,34 +1,37 @@
 import React from "react";
-import '../App.css';
+// import '../App.css';
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import bg from '../img/bg.svg';
+import wave from '../img/wave.png';
+import avatar from '../img/avatar.svg';
 
 const Student = () => (
     <>
-    <div className="student" style={{"backgroundImage":"../img/wave.png"}}>
+    <div className="student">
+    <img src={wave} className="wave" alt='' />
        <div class="container">
 		<div class="img">
-			<img src="../img/bg.svg" alt='' />
+			<img src={bg} alt='' />
 		</div>
 		<div class="login-content">
 			<form method="POST">
-				<img src="../img/avatar.svg" alt='' />
+				<img src={avatar} alt='' />
 				<h2 class="title">Welcome</h2>
            		<div class="input-div one">
            		   <div class="i">
-           		   		<i class="fas fa-user"></i>
+           		   		<FontAwesomeIcon icon="fas fa-user" />
            		   </div>
            		   <div class="div">
-           		   		<h5>Username</h5>
-           		   		<input type="text" class="input" name="user" />
+           		   		<input type="text" class="input" name="user" placeholder="Username" />
            		   </div>
            		</div>
            		<div class="input-div pass">
            		   <div class="i"> 
-           		    	<i class="fas fa-lock"></i>
+           		    	<FontAwesomeIcon icon="fas fa-lock" />
            		   </div>
            		   <div class="div">
-           		    	<h5>Password</h5>
-           		    	<input type="password" class="input" name="password" />
+           		    	<input type="password" className="input" name="password" placeholder="Password" />
             	   </div>
             	</div>
                    <h3>Forgot Password</h3>
