@@ -22,6 +22,7 @@ const router = createBrowserRouter([
     path : '/adminlogin',
     element : <Adminlogin></Adminlogin>
   }
+
 ])
 
 export default function App() {
