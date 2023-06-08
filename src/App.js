@@ -6,6 +6,7 @@ import './App.css';
 /** import all components */
 import Home from './pages/home';
 import Student from './pages/studentlogin'
+import Adminlogin from './pages/adminlogin';
 
 /** root routes */
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path : '/studentlogin',
     element : <Student></Student>
+  },
+  {
+    path : '/adminlogin',
+    element : <Adminlogin></Adminlogin>
   }
 ])
 
