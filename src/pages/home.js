@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const Home = () => (
   <div className="home">
      <div className="button">
-      <Link to="/"><Button className="glow-on-hover">Admin Login</Button></Link>
+      <Link to="/studentlogin"><Button className="glow-on-hover">Admin Login</Button></Link>
       <Link to="/studentlogin"><Button className="glow-on-hover">Student Login</Button></Link>
     </div>
   </div>

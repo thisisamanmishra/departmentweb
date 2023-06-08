@@ -10,7 +10,7 @@ const Student = () => (
     <>
     
     <div className="student">
-    <h1>Aman</h1>
+    
        <img src={wave} className="wave" alt='' />
        <div class="container">
 		<div class="img">
@@ -19,7 +19,7 @@ const Student = () => (
 		<div class="login-content">
 			<form method="POST">
 				<img src={avatar} alt='' />
-				<h2 class="title">Welcome</h2>
+				<h2 class="title">Welcome, Student</h2>
            		<div class="input-div one">
            		   <div class="i">
            		   		<FontAwesomeIcon icon="fas fa-user" />
