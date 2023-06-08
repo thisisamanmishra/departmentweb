@@ -1,5 +1,5 @@
 import React from "react";
-// import '../App.css';
+import './student.css';
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import bg from '../img/bg.svg';
@@ -8,8 +8,10 @@ import avatar from '../img/avatar.svg';
 
 const Student = () => (
     <>
+    
     <div className="student">
-    <img src={wave} className="wave" alt='' />
+    <h1>Aman</h1>
+       <img src={wave} className="wave" alt='' />
        <div class="container">
 		<div class="img">
 			<img src={bg} alt='' />

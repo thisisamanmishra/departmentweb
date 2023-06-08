@@ -1,5 +1,15 @@
-  .glow-on-hover {
-width: 220px;
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  background-image: url("../img/hit.jpg"); 
+  background-size: cover;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.glow-on-hover {
+width: 200px;
 height: 50px;
 border: none;
 outline: none;
@@ -17,7 +27,7 @@ background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, 
 position: absolute;
 top: -2px;
 left:-2px;
-background-size: 400%;
+background-size: 100%;
 z-index: -1;
 filter: blur(5px);
 width: calc(100% + 4px);
@@ -57,9 +67,8 @@ border-radius: 10px;
 50% { background-position: 400% 0; }
 100% { background-position: 0 0; }
 }
-div{
-
-padding: 15px;
+.button{
+padding-left: 15px;
 position: absolute;
 top: 50%;
 left: 50%;
@@ -67,7 +76,4 @@ left: 50%;
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%,-50%);
 width: max-content;
-}
-button{
-margin-left: 30px;
 }
